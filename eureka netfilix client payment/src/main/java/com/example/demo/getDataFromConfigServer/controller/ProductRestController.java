@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ProductRestController {
 
-    @Value("${app.title}")
+//    @Value("${app.title}")
     private String title;
 
     @GetMapping("/data")
